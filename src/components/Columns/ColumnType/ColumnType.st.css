@@ -1,0 +1,104 @@
+.root {
+	border-top: 1px solid black;
+	min-width: 150px;
+	overflow: hidden;
+	background: white;
+	height: 55px;
+}
+.root:nth-child(odd) {
+	box-shadow: inset 0 0 0 9999px rgb(0 0 0 / 5%);
+}
+.root:global(:hover) {
+	box-shadow: inset 0 0 0 9999px rgb(0 0 0 / 5%);
+}
+.editAll {
+	display: flex;
+	padding-bottom: 5px;
+	background: darkgray;
+}
+.editAll :global(input) {
+	height: 20px;
+	width: 150px;
+	margin-left: 5px;
+}
+.editAll :global(select) {
+	height: 25px;
+	width: 150px;
+	margin-left: 5px;
+}
+.editMulRow {
+	position: absolute;
+	z-index: 19;
+	left: 52px;
+	width: 95.7%;
+	height: auto;
+}
+.groupHandleData {
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    background: white;
+    height: 50px;
+    padding: 10px;
+}
+.groupHandleData :global(p) {
+	cursor: poiter;
+}
+.saveData {
+	width: 71px;
+    text-align: center;
+    background: #eb5202;
+}
+.saveData :global(p){
+	margin-left: 15px;
+}
+.cancelData {
+	margin-left: 10px;
+}
+.inputName :global(input) {
+	width: 140px;
+}
+.inputPosition :global(select) {
+	width: 150px;
+}
+.inputOffice :global(input) {
+	width: 140px;
+	overflow: hidden;
+}
+.inputAge :global(input) {
+	width: 140px;
+}
+.inputStartDate :global(input) {
+	width: 140px;
+}
+.inputSalary :global(input) {
+	width: 145px;
+}
+.inputStatus :global(select) {
+	width: 145px;
+}
+.allInColumn {
+	display: flex;
+	height: 35px;
+	background: darkgray;
+	padding-bottom: 5px;
+}
+.allInColumn :global(p) {
+	margin-left: -5px;
+	padding: 0 !important;
+}
+.allName,
+.allPosition,
+.allStartDate,
+.allAge,
+.allSalary,
+.allStatus {
+	width: 160px;
+	text-align: center;
+}
+.allOffice {
+	width: 150px;
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+.root {
+	display: flex;
+	padding-right: 5px;
+	background: darkgray;
+	padding-bottom: 10px;
+}
+.root :global(input) {
+	height: 20px;
+	width: 150px;
+	margin-left: 5px;
+}
+.root :global(select) {
+	height: 25px;
+	margin-left: 5px;
+	width: 160px;
+}
+.inputName :global(input) {
+	width: 140px;
+}
+.inputPosition :global(select) {
+	width: 150px;
+}
+.inputOffice :global(input) {
+	width: 140px;
+	overflow: hidden;
+}
+.inputAge :global(input) {
+	width: 140px;
+}
+.inputStartDate :global(input) {
+	width: 140px;
+}
+.inputSalary :global(input) {
+	width: 145px;
+}
+.inputStatus :global(select) {
+	width: 145px;
+}

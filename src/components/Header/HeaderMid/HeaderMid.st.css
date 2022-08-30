@@ -1,0 +1,32 @@
+.root {
+}
+.filterAtr {
+	display: flex;
+	width: auto;
+	height: 30px;
+	padding-left: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	margin-top: -2px;
+	background: #bcbcd3;
+}
+.groupFilted {
+	display: flex;
+	position: absolute;
+	top: -16px;
+}
+.filterAtr :global(p) {
+	padding-right: 10px !important;
+}
+.deleteFilter {
+	cursor: pointer;
+}
+.searchRecord {
+	position: relative;
+	top: 25px;
+}
+.searchRecord :global(input) {
+	width: 200px;
+	height: 30px;
+}

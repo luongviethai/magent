@@ -1,0 +1,19 @@
+:global(body) {
+	background: #4e4745;
+}
+.root {
+	display: flex;
+	justify-content: center;
+}
+.wrapper {
+	position: relative;
+	clear: both;
+}
+.heroCallout {
+	background-color: #fff;
+	padding: 1.5em;
+	box-shadow: 3px 3px 20pxrgba (0, 0, 0, 0.3);
+	border-radius: 3px;
+	width: 1250px;
+	height: 100%;
+}
